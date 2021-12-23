@@ -9,6 +9,7 @@ Then you will need to draft a release and publish the github action to the store
 Action need to connect to your account through cookies. so you need to add those two environment variables to github secrets. 
 
 `OVERLEAF_COOKIE` > Cookies path
+
 `OVERLEAF_PROJECT_ID`> The id of the project you want to sync it with current repository 
 
 Then create an action (i.e `.github/workflows/overleaf-sync.yml`) with the contents 
