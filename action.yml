@@ -1,5 +1,5 @@
 # action.yml
-name: "Overleaf Sync with Git"
+name: "Selfhosted Overleaf Git Sync"
 branding:
   icon: 'align-center'  
   color: 'yellow'
