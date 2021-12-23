@@ -3,7 +3,7 @@ name: "Overleaf Sync with Git"
 branding:
   icon: 'align-center'  
   color: 'yellow'
-description: "🤖 GitHub action to take backups from OverLeaf which is an Online LaTeX Editor."
+description: "🤖 GitHub action to take backups from My Selfhosted OverLeaf."
 
 
 inputs:
