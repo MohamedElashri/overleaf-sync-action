@@ -27,7 +27,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Fetch the latest version from overleaf server
-      uses: MohamedElashri/overleaf-sync-action@v1
+      uses: MohamedElashri/overleaf-sync-action@v1.1
       with:
         OVERLEAF_PROJECT_ID: ${{ secrets.OVERLEAF_PROJECT_ID }}
         OVERLEAF_COOKIE: ${{ secrets.OVERLEAF_COOKIE }}
