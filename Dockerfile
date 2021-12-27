@@ -7,5 +7,5 @@ RUN apk --no-cache add curl
 RUN apk --no-cache add unzip
 
 COPY source/entrypoint.sh /entrypoint.sh
-
+RUN chmod +x entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh", "tmp"]
