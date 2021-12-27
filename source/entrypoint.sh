@@ -13,8 +13,8 @@ COOKIE="$INPUT_OVERLEAF_COOKIE"
 
 echo "Dumping zip file at $ZIP_OUTPUT_PATH"
 
-curl "https://www.tex.elashri.xyz/project/$PROJECT_ID/download/zip" \
-  -H 'authority: www.tex.elashri.xyz' \
+curl "https://tex.elashri.xyz/project/$PROJECT_ID/download/zip" \
+  -H 'authority: tex.elashri.xyz' \
   -H 'pragma: no-cache' \
   -H 'cache-control: no-cache' \
   -H 'upgrade-insecure-requests: 1' \
